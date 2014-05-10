@@ -1,0 +1,15 @@
+{
+	"name": "Recorder",
+	"version": "1.0",
+	"description": "动画好多啊",
+	"manifest_version": 2,
+	"icons": {
+		"128": "statics/images/icon128.png"
+	},
+	"browser_action": {
+		"default_icon": "statics/images/icon19.png",
+		"default_title": "Recorder",
+		"default_popup": "html/popup.html"
+	},
+	"options_page": "html/option.html"
+}
