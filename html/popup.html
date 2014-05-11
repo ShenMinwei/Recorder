@@ -11,17 +11,17 @@
  <div class="container">
     <div class="row">
         <div class="col-xs-9">
-        	<input style="margin-left:60px;height:22px"type="text">
+        	<input id="searchText"style="margin-left:60px;height:22px"type="text">
         </div>
         <div class="col-xs-3">
-        	<button class="btn btn-primary btn-xs">Search</button>
+        	<button id="searchBtn"class="btn btn-primary btn-xs">Search</button>
         </div>
     </div>
 </div>
 <div style="margin-top:5px" id="newitem" class="collapse">
 	<div class="row">
 		<div class="col-xs-4" style="padding-left:40px;padding-right:2px;">
-			<select id="daySelect"class="form-control" style="padding-top: 0px;padding-bottom: 0px;padding-right: 0px;padding-left: 0px;height: 22px;width: 62px;">
+			<select id="daySelect" style="padding-top: 0px;padding-bottom: 0px;padding-right: 0px;padding-left: 0px;height: 22px;width: 55px;">
 				<option value="Sunday" >Sun</option>
 				<option value="Monday">Mon</option>
 				<option value="Tuesday">Tue</option>
@@ -48,7 +48,7 @@
   		<li><a href="#Thursday" data-toggle="tab">Thu</a></li>
   		<li><a href="#Friday"data-toggle="tab">Fri</a></li>
   		<li><a href="#Saturday"data-toggle="tab">Sat</a></li>
-  		<li><a href="#newitem" data-toggle="collapse"><i class="fa fa-plus-square"></i></a></li>
+  		<li><a id="showAddItem"href="#newitem" data-toggle="collapse"><i class="fa fa-plus-square"></i></a></li>
 	</ul>
 	<div class="tab-content">
 		<div id="Sunday" class="tab-pane fade">
